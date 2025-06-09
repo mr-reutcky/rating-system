@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+### React Star Rating System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React application that implements a dynamic star rating system with a dialog box. It was created as part of the Introduction to React (SD-260) course at Manitoba Institute of Trades and Technology.
+Features
 
-## Available Scripts
+    - Star Rating Component: Displays five stars that users can click to set a rating from 1 to 5.
 
-In the project directory, you can run:
+    - Dynamic Review Text: Shows an in-depth review message based on the selected star rating.
 
-### `npm start`
+    - Dialog Component: A modal dialog box that appears in the center of the screen, toggled by a fixed button.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    - State Management: Utilizes React’s useState hook to handle state in functional components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    - Styled Components: The UI features custom CSS for a modern, clean look with responsive design.
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    - Clone the repository from GitHub.
 
-### `npm run build`
+    - Navigate to the project directory.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    - Install the project dependencies using npm.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Run the application locally with the npm start command. This will start the development server, and the app will be accessible in your browser at localhost on port 3000.
+Deployment
 
-### `npm run eject`
+This project can be hosted on GitHub Pages or any static site hosting service.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    - React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    - JavaScript (ES6+)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    - react-icons (for star icons)
 
-## Learn More
+    - CSS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    - src/components/Star.js — Star icon component
 
-### Code Splitting
+    - src/components/StarRating.js — Star rating logic and UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    - src/components/Dialog.js — Dialog box component
 
-### Analyzing the Bundle Size
+    - src/App.js — Main application component
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    - src/index.css — Global styles
