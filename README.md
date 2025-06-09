@@ -1,7 +1,8 @@
 ### React Star Rating System
 
 This project is a React application that implements a dynamic star rating system with a dialog box. It was created as part of the Introduction to React (SD-260) course at Manitoba Institute of Trades and Technology.
-Features
+
+### Features
 
     - Star Rating Component: Displays five stars that users can click to set a rating from 1 to 5.
 
